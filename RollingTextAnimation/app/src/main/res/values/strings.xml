@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RollingText</string>
+    <string name="title_text">Enter number:</string>
+    <string name="hint_number">Number</string>
+    <string name="hint_animation_time">Time(Millisecond) to animate single digit</string>
+    <string name="hint_gap_between_numbers">Gap between two numbers(Milliseconds)</string>
+    <string name="text_size">Text size:</string>
+    <string name="text_style">Text Style:</string>
+    <string name="try_again">TRY AGAIN</string>
+</resources>
