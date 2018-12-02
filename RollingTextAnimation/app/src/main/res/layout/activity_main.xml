@@ -43,6 +43,17 @@
         android:maxLength="6"
         />
 
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:text="@string/animation_duration"
+        />
+
     <EditText
         android:textColor="@color/black"
         android:id="@+id/animationDurationET"

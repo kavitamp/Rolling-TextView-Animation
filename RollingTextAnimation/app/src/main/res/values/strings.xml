@@ -7,4 +7,5 @@
     <string name="text_size">Text size:</string>
     <string name="text_style">Text Style:</string>
     <string name="try_again">TRY AGAIN</string>
+    <string name="animation_duration">Animation duration:</string>
 </resources>
