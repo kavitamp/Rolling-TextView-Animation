@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     int[] animatingNumbers = {1, 6, 9, 5};
     LinearLayout linearLayout;
     Button tryAgain;
-    TextView[] myTextViews,myTextViewsOut;
+    TextView[] myTextViews, myTextViewsOut;
     RelativeLayout childLayout;
     LinearLayout.LayoutParams linearParams;
-    TextView rowTextView,rowTextViewOut;
+    TextView rowTextView, rowTextViewOut;
     EditText editText, animationDurationET, gapBetweenTwoNos;
     Spinner textSizeSpinner, textStyleSpinner;
     TextAnimationFields textAnimationFields;
@@ -43,8 +43,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        //testing new branch
         textAnimationFields = new TextAnimationFields();
 
         editText = findViewById(R.id.editText);
@@ -193,7 +191,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else {
             animatingNumbers = new int[]{1, 6, 9, 5};
             textAnimationFields.setMaxNumbers(animatingNumbers.length);
-            }
+        }
     }
 
     public void animateTexts(final int actualNo, final int loopNo, final TextView textView, final TextView textViewOut) {

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
@@ -9,153 +8,150 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:layout_marginTop="30dp"
         android:id="@+id/linearLayout"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_centerInParent="true"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"></LinearLayout>
 
 
     <TextView
-        android:textColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="25dp"
         android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:textSize="20sp"
         android:text="@string/title_text"
-        />
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
     <EditText
-        android:textColor="@color/black"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
         android:id="@+id/editText"
-        android:hint="@string/hint_number"
-        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/hint_number"
         android:inputType="number"
         android:maxLength="6"
-        />
+        android:textColor="@color/black" />
 
     <TextView
-        android:textColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:textSize="20sp"
         android:text="@string/animation_duration"
-        />
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
     <EditText
-        android:textColor="@color/black"
         android:id="@+id/animationDurationET"
-        android:hint="@string/hint_animation_time"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/hint_animation_time"
         android:inputType="number"
         android:maxLength="5"
-        />
+        android:textColor="@color/black" />
 
     <EditText
-        android:textColor="@color/black"
         android:id="@+id/gapBetweenTwoNos"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:hint="@string/hint_gap_between_numbers"
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/hint_gap_between_numbers"
         android:inputType="number"
         android:maxLength="5"
-        />
+        android:textColor="@color/black" />
 
     <LinearLayout
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:padding="10dp"
-        android:orientation="horizontal"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
         <TextView
-            android:textColor="@color/black"
-            android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_size"
-            />
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
         <RelativeLayout
-            android:background="@drawable/bg_new"
-            android:layout_marginLeft="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bg_new">
+
             <Spinner
-                android:textColor="@color/black"
-                android:textSize="20sp"
                 android:id="@+id/textSizeSpinner"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
         </RelativeLayout>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:padding="10dp"
-        android:orientation="horizontal"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
         <TextView
-            android:textColor="@color/black"
-            android:textSize="20sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_style"
-            />
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
         <RelativeLayout
-            android:background="@drawable/bg_new"
-            android:layout_marginLeft="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bg_new">
+
             <Spinner
-                android:textColor="@color/black"
-                android:textSize="20sp"
                 android:id="@+id/textStyleSpinner"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
         </RelativeLayout>
 
     </LinearLayout>
 
-   <Button
-       android:textColor="@color/black"
-       android:layout_marginTop="20dp"
-       android:id="@+id/tryAgain"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignParentBottom="true"
-       android:layout_centerHorizontal="true"
-       android:text="@string/try_again"
-       android:layout_marginBottom="20dp"
-       />
+    <Button
+        android:id="@+id/tryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/try_again"
+        android:textColor="@color/black" />
 
 </LinearLayout>

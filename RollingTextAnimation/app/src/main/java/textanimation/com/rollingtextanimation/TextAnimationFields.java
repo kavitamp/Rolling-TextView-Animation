@@ -6,7 +6,7 @@ public class TextAnimationFields {
     int textSize = 20;
     String textStyleString = "Bold";
     int maxNumbers = 4;
-    long animationDuration = 200,gapBetweenTwoNumbersDuration=100;
+    long animationDuration = 200, gapBetweenTwoNumbersDuration = 100;
 
     public int getTextSize() {
         return textSize;
