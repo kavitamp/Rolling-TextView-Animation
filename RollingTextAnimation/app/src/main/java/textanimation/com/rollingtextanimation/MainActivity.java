@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //testing new branch
         textAnimationFields = new TextAnimationFields();
 
         editText = findViewById(R.id.editText);
@@ -84,13 +85,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onNothingSelected(AdapterView<?> adapterView) {
             }
         });
-
-        /*int gapValue = (int) (textAnimationFields.getAnimationDuration() / 2) - (int)
-                (textAnimationFields.getAnimationDuration() / 4);
-        textAnimationFields.setGapBetweenTwoNumbersDuration(gapValue);
-        if (textAnimationFields.getGapBetweenTwoNumbersDuration() <= 0) {
-            textAnimationFields.setGapBetweenTwoNumbersDuration(100);
-        }*/
 
         createNumberOfTextFields();
 
